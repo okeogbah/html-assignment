@@ -1,0 +1,99 @@
+img{
+    width: 200px;
+}
+.head{
+    color: #98fb98;
+    margin: 20px;
+    padding:20px 0px 0px 0px;
+    font-weight: lighter;
+}
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 0px 0px 0px 0px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+}
+h3{
+    font-style: oblique;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.para{
+    margin: 20px;
+}
+#picture {
+    background-color: palegreen;
+    border: none;
+    display: flex;
+}
+.topnav{
+    overflow: hidden;
+    background-color: dimgrey;
+    color: white;
+
+}
+.topnav a {
+    float: left;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.writeup{
+    float: right;
+    display: block;
+}
+.button{
+    background-color: rgb(109, 176, 214);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+@keyframes glowing {
+    0% {
+      background-color:rgb(9, 81, 216);
+      box-shadow: 0 0 3px rgb(9, 81, 216);
+    }
+    50% {
+      background-color: rgb(55, 116, 230);
+      box-shadow: 0 0 10px rgb(93, 138, 223);
+    }
+    100% {
+      background-color: rgb(34, 78, 158);
+      box-shadow: 0 0 3px rgb(123, 159, 224);
+    }
+  }
+.button {
+    animation: glowing 1300ms infinite;}
+#myMenu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+    #myMenu li a {
+        padding: 12px;
+        text-decoration: none;
+        color: black;
+        display: block
+    }  
+    #myMenu li a:hover {
+        background-color: #eee;
+    }
